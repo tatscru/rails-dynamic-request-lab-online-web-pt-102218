@@ -4,5 +4,6 @@ class StudentsController < ApplicationController
   end
   
   def show 
+    @student= params[:id]
   end 
 end
